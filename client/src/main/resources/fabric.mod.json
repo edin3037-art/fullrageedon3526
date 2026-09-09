@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "fullrageedon",
+  "version": "1.0.0",
+  "name": "Fullrageedon3526 Client",
+  "description": "Modern Minecraft client with advanced modules and ClickGUI",
+  "authors": [
+    "edin3037-art"
+  ],
+  "contact": {},
+  "license": "Proprietary",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.fullrageedon.FullrageedonClient"
+    ]
+  },
+  "mixins": [
+    "fullrageedon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}

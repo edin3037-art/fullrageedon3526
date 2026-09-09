@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.fullrageedon.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinClientConnection",
+    "MixinEntity",
+    "MixinGameRenderer"
+  ],
+  "client": [
+    "MixinClientPlayerEntity",
+    "MixinCameraEntity",
+    "MixinWorldRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
